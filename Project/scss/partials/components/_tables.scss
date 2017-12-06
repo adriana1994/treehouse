@@ -1,0 +1,43 @@
+
+/*  Toggleable menu  */
+	.top-table {
+		border-bottom:1px solid $color-magenta;
+		font-family: Arial Narrow, sans-serif;
+		button {
+			&:hover {
+				border-color:$color-magenta;
+			}
+		}
+		td a {
+			font-size: 95%;
+			color:$color-black;
+			&:hover {
+				color:$color-magenta;
+			}
+		}
+	}
+
+
+
+/* Shortcuts  */
+		.shortcuts {
+			background-color:$color-magenta;
+			height:500px;
+			align-items: center;
+			h1, table, a {
+				color:$color-primary;
+				font-family: Arial Narrow, sans-serif;
+			}
+			h1 {
+				text-align:center;
+			}
+			th {
+				font-size: 120%;
+				padding-bottom: 20px;
+			}
+			td {
+				font-size: 95%;
+				padding-top: 20px;
+				padding-right: 190px;
+			}
+		}

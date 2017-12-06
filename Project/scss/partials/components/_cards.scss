@@ -1,0 +1,147 @@
+/*   ALL CARDS   */
+
+	.cards {
+		h2 {
+			font-weight: bold;
+		}
+		.card {
+			@include background;
+			height: 30vw;
+			align-items: center;
+		}
+		#iphone8 {
+			background-color:#fde3d6;
+			background-image:url(https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/gallery1/iphone8-gallery1-2017?wid=2000&hei=1536&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1506703285757);
+			background-position: bottom;
+			min-height:300px;
+			h2 {
+				color:#a76143;
+			}
+			a {
+				color:#82736a;
+				border-color:#82736a;
+			}
+		}
+		#music {
+			@extend %bgposition;
+			background-image:url(https://static.winflare.com/wp-content/uploads/2017/03/ce3e441327aa7dbfbbafaaccbf1f4b3f.jpg);
+			background-color: #ec008b;
+			min-height:300px;
+			h2, a, p {
+				color: $color-primary;
+			}
+			p {
+				font-size:calc( 14px + (24 - 16) * (100vw - 400px)/(800-400));
+			}
+		}
+		#tv {
+			@extend %bgposition;
+			background-image: url("http://www.telekom.de/is-bin/intershop.static/WFS/EKI-PK-Site/EKI-PK/de_DE/themen/wechseln-zu-entertain-tv/page/images/entertain-tv.png");
+			background-color: #efefef;
+			min-height:300px;
+			a {
+				color: $color-black;
+			}
+		}
+		#fiber {
+			@extend %bgposition;
+			background-color: $color-black;
+			background-image:url(https://cache.bestmvno.com/wp-content/uploads/2016/05/T-Mobile-Coverage-Map-1.jpg);
+			min-height:300px;
+			h2, p, a {
+				color:$color-primary;
+			}
+		}
+		#huawei {
+			@extend %bgposition;
+			min-height:300px;
+			background-image:url(https://zdnet2.cbsistatic.com/hub/i/r/2017/10/26/40df9db5-d8d8-4ce0-89c0-1d70dd645efc/thumbnail/770x433/f3299786faf0aeb63647fe5d3aaf82ab/huawei-mate-10-pro-header.jpg);
+			p {
+				color:$color-primary;
+			}
+			.circle { 
+			// offer circle
+				border-radius: 50%;
+				background-color: $color-light-blue;
+				width: 150px;
+				height: 150px;
+				min-height: inherit;
+				transform: rotate(-10deg);
+				position: absolute;
+				right: 60px;
+				text-align: center;
+			}
+			a {
+				color:$color-black;
+				border-color:$color-black;
+				text-shadow:2px 1px $color-primary;
+			}
+		}
+		#sport {
+			background-image:url(https://hdwallsource.com/img/2014/6/liverpool-fc-wallpaper-8895-9235-hd-wallpapers.jpg);
+			background-size:cover;
+			min-height:300px;
+			h2 {
+				color:$color-primary;
+				text-shadow:2px 2px $color-black;
+			}
+			a {
+				color:$color-primary;
+			}
+		}
+		#LTE {
+			background-image: url(../Pictures/ltemax.jpg);
+			background-size:cover;
+			min-height:300px;
+			a {
+				color:$color-primary;
+				border-color:$color-primary;
+			}
+		}
+		#laptop {
+			background-image:url(../Pictures/laptop.jpg);
+			@extend %bgposition;
+			min-height:300px;
+			a {
+				color:$color-black;
+			}
+		}
+		#young {
+			background-image: url(../Pictures/young.jpg);
+			background-size:cover;
+			min-height:300px;
+			h4 {
+				color:$color-black;
+				text-shadow: 1px 1px $color-primary;
+			}
+			a {
+				color:$color-primary;
+				border-color:$color-primary;
+			}
+		}
+		#magenta {
+			background-image:url(https://i.ytimg.com/vi/-Ebw5lT7ITM/maxresdefault.jpg);
+			background-size:cover;
+			min-height:300px;
+			p, a {
+				color:$color-primary;
+			}
+		}
+		/* THREE  BUTTONS  */
+		.buttons {
+			h4{
+				color:$color-black;
+			}
+			.card {
+				height:150px;
+				background-color:#d0d0d0;
+				justify-content: center;
+			&:hover {
+				background-color:$color-magenta;
+				h4 {
+					color:$color-primary;
+				}
+			}
+			}
+		}
+	}

@@ -1,0 +1,31 @@
+@import 'partials/utilities/variables',
+		'partials/utilities/helpers',
+		'partials/utilities/mixins',
+		'partials/components/nav',
+		'partials/components/buttons',
+		'partials/components/offers',
+		'partials/components/cards',
+		'partials/components/tables';
+
+a {
+	&:hover {
+		color:$color-magenta;
+	}
+}
+
+
+
+/* Jumbotron iPhone X */
+
+	#container {
+		height: 34vw;
+		background-color: $color-primary; 
+		min-height:300px;
+		.jumbotron {
+			background-image: url(../Pictures/iphoneX.jpg);
+			background-position: right;
+			background-color: $color-primary;
+			height: inherit;
+			@include background;
+		}
+	}

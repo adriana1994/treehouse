@@ -1,0 +1,203 @@
+.cards #music, .cards #tv, .cards #fiber, .cards #huawei, .cards #laptop {
+  background-position: center; }
+
+/* Inverse top dark menu */
+.inverse-menu {
+  font-size: 80%; }
+
+.btn {
+  color: #404040;
+  border: 1px solid #8c8c8c;
+  background-color: transparent;
+  font-weight: bold; }
+  .btn:hover {
+    color: #fafafa;
+    background-color: #E30074;
+    border-color: #E30074; }
+  .btn-lte {
+    color: #fafafa;
+    border-color: #fafafa; }
+  .btn-white {
+    color: #fafafa;
+    border-color: #fafafa; }
+    #young .btn-white {
+      text-shadow: 2px 1px #404040; }
+    .btn-white:hover {
+      color: #E30074;
+      background-color: #fafafa; }
+
+#experience {
+  background-color: #E30074; }
+  #experience p {
+    color: #fafafa;
+    align-items: right; }
+
+.contract {
+  text-align: center; }
+  .contract h4 {
+    font-weight: bold;
+    color: #fafafa; }
+  .contract p {
+    color: #1bada2; }
+
+/* Book online */
+.book-online {
+  background-color: #1bada2; }
+  .book-online h1 {
+    color: #fafafa;
+    text-align: center; }
+
+/*   ALL CARDS   */
+.cards {
+  /* THREE  BUTTONS  */ }
+  .cards h2 {
+    font-weight: bold; }
+  .cards .card {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vw;
+    align-items: center; }
+  .cards #iphone8 {
+    background-color: #fde3d6;
+    background-image: url(https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/gallery1/iphone8-gallery1-2017?wid=2000&hei=1536&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1506703285757);
+    background-position: bottom;
+    min-height: 300px; }
+    .cards #iphone8 h2 {
+      color: #a76143; }
+    .cards #iphone8 a {
+      color: #82736a;
+      border-color: #82736a; }
+  .cards #music {
+    background-image: url(https://static.winflare.com/wp-content/uploads/2017/03/ce3e441327aa7dbfbbafaaccbf1f4b3f.jpg);
+    background-color: #ec008b;
+    min-height: 300px; }
+    .cards #music h2, .cards #music a, .cards #music p {
+      color: #fafafa; }
+    .cards #music p {
+      font-size: calc( 14px + (24 - 16) * (100vw - 400px)/(800-400)); }
+  .cards #tv {
+    background-image: url("http://www.telekom.de/is-bin/intershop.static/WFS/EKI-PK-Site/EKI-PK/de_DE/themen/wechseln-zu-entertain-tv/page/images/entertain-tv.png");
+    background-color: #efefef;
+    min-height: 300px; }
+    .cards #tv a {
+      color: #000000; }
+  .cards #fiber {
+    background-color: #000000;
+    background-image: url(https://cache.bestmvno.com/wp-content/uploads/2016/05/T-Mobile-Coverage-Map-1.jpg);
+    min-height: 300px; }
+    .cards #fiber h2, .cards #fiber p, .cards #fiber a {
+      color: #fafafa; }
+  .cards #huawei {
+    min-height: 300px;
+    background-image: url(https://zdnet2.cbsistatic.com/hub/i/r/2017/10/26/40df9db5-d8d8-4ce0-89c0-1d70dd645efc/thumbnail/770x433/f3299786faf0aeb63647fe5d3aaf82ab/huawei-mate-10-pro-header.jpg); }
+    .cards #huawei p {
+      color: #fafafa; }
+    .cards #huawei .circle {
+      border-radius: 50%;
+      background-color: #1bada2;
+      width: 150px;
+      height: 150px;
+      min-height: inherit;
+      transform: rotate(-10deg);
+      position: absolute;
+      right: 60px;
+      text-align: center; }
+    .cards #huawei a {
+      color: #000000;
+      border-color: #000000;
+      text-shadow: 2px 1px #fafafa; }
+  .cards #sport {
+    background-image: url(https://hdwallsource.com/img/2014/6/liverpool-fc-wallpaper-8895-9235-hd-wallpapers.jpg);
+    background-size: cover;
+    min-height: 300px; }
+    .cards #sport h2 {
+      color: #fafafa;
+      text-shadow: 2px 2px #000000; }
+    .cards #sport a {
+      color: #fafafa; }
+  .cards #LTE {
+    background-image: url(../Pictures/ltemax.jpg);
+    background-size: cover;
+    min-height: 300px; }
+    .cards #LTE a {
+      color: #fafafa;
+      border-color: #fafafa; }
+  .cards #laptop {
+    background-image: url(../Pictures/laptop.jpg);
+    min-height: 300px; }
+    .cards #laptop a {
+      color: #000000; }
+  .cards #young {
+    background-image: url(../Pictures/young.jpg);
+    background-size: cover;
+    min-height: 300px; }
+    .cards #young h4 {
+      color: #000000;
+      text-shadow: 1px 1px #fafafa; }
+    .cards #young a {
+      color: #fafafa;
+      border-color: #fafafa; }
+  .cards #magenta {
+    background-image: url(https://i.ytimg.com/vi/-Ebw5lT7ITM/maxresdefault.jpg);
+    background-size: cover;
+    min-height: 300px; }
+    .cards #magenta p, .cards #magenta a {
+      color: #fafafa; }
+  .cards .buttons h4 {
+    color: #000000; }
+  .cards .buttons .card {
+    height: 150px;
+    background-color: #d0d0d0;
+    justify-content: center; }
+    .cards .buttons .card:hover {
+      background-color: #E30074; }
+      .cards .buttons .card:hover h4 {
+        color: #fafafa; }
+
+/*  Toggleable menu  */
+.top-table {
+  border-bottom: 1px solid #E30074;
+  font-family: Arial Narrow, sans-serif; }
+  .top-table button:hover {
+    border-color: #E30074; }
+  .top-table td a {
+    font-size: 95%;
+    color: #000000; }
+    .top-table td a:hover {
+      color: #E30074; }
+
+/* Shortcuts  */
+.shortcuts {
+  background-color: #E30074;
+  height: 500px;
+  align-items: center; }
+  .shortcuts h1, .shortcuts table, .shortcuts a {
+    color: #fafafa;
+    font-family: Arial Narrow, sans-serif; }
+  .shortcuts h1 {
+    text-align: center; }
+  .shortcuts th {
+    font-size: 120%;
+    padding-bottom: 20px; }
+  .shortcuts td {
+    font-size: 95%;
+    padding-top: 20px;
+    padding-right: 190px; }
+
+a:hover {
+  color: #E30074; }
+
+/* Jumbotron iPhone X */
+#container {
+  height: 34vw;
+  background-color: #fafafa;
+  min-height: 300px; }
+  #container .jumbotron {
+    background-image: url(../Pictures/iphoneX.jpg);
+    background-position: right;
+    background-color: #fafafa;
+    height: inherit;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+/*# sourceMappingURL=output.css.map */

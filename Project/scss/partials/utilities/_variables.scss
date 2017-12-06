@@ -1,0 +1,20 @@
+
+$color-primary:#fafafa; // white
+$color-magenta:#E30074;
+$color-light-blue:#1bada2;
+
+$color-black:#000000;
+$grey: lighten($color-black, 50%);
+$grey-dark: darken($grey, 25%);
+$grey-medium: lighten($grey, 5%);
+$complement: complement($grey);  // use main color (grey as background and complement of grey as color of <p>;
+								// it will create special color of <p> tag to make contrast
+
+
+$gutter: 10px;
+
+//breakpoints
+$break-xs: 575px;
+$break-s: 576px;
+$break-m: 768px;
+$break-l: 992px;

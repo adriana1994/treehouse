@@ -1,0 +1,27 @@
+#experience {
+		background-color:$color-magenta;
+		p {
+			color:$color-primary;
+			align-items:right;
+		}
+	}
+
+.contract {
+	text-align: center;
+	h4 {
+		font-weight: bold;
+		color:$color-primary;
+	}
+	p {
+		color:$color-light-blue;
+	}
+}
+
+	/* Book online */
+	.book-online {
+		background-color:$color-light-blue;
+		h1 {
+			color:$color-primary;
+			text-align:center;
+		}
+	}

@@ -1,0 +1,22 @@
+// ====================
+// 		Functions
+// ====================
+
+$max-width: 1000px
+
+@function px-to-percentage ($target, $context: $max-width) {
+	@return ($target / $context) * 100%;
+}
+
+.test {
+	width: px-to-percentage(400px);
+}
+
+//css will return width of test 40%
+
+
+@function per-line($items) {
+	$g-pct: px-to-percentage($gutter) * 2;
+	$g-total: $items * $g-pct;
+	@return (100% / $items) - $g-total;
+}

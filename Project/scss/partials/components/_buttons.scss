@@ -1,0 +1,26 @@
+.btn {
+	color:$grey-dark;
+	border:1px solid $grey-medium;
+	background-color:transparent;
+	font-weight:bold;
+	&:hover {
+		color:$color-primary;
+		background-color:$color-magenta;
+		border-color:$color-magenta;
+	}
+	&-lte {
+		color:$color-primary;
+		border-color:$color-primary;
+	}
+	&-white {
+		color:$color-primary;
+		border-color:$color-primary;
+		#young & {
+			text-shadow: 2px 1px $grey-dark;
+		}
+		&:hover {
+			color:$color-magenta;
+			background-color:$color-primary;
+		}
+	}
+}
