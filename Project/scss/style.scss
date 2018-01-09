@@ -22,10 +22,13 @@ a {
 		background-color: $color-primary; 
 		min-height:300px;
 		.jumbotron {
+			@include background;
 			background-image: url(../Pictures/iphoneX.jpg);
 			background-position: right;
 			background-color: $color-primary;
 			height: inherit;
-			@include background;
+			@media only screen and (max-width: 768px) {
+				background: none;
+			}
 		}
 	}

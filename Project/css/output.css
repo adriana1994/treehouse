@@ -20,8 +20,6 @@
   .btn-white {
     color: #fafafa;
     border-color: #fafafa; }
-    #young .btn-white {
-      text-shadow: 2px 1px #404040; }
     .btn-white:hover {
       color: #E30074;
       background-color: #fafafa; }
@@ -37,7 +35,7 @@
   .contract h4 {
     font-weight: bold;
     color: #fafafa; }
-  .contract p {
+  .contract a {
     color: #1bada2; }
 
 /* Book online */
@@ -81,6 +79,8 @@
     min-height: 300px; }
     .cards #tv a {
       color: #000000; }
+    .cards #tv p {
+      background: rgba(255, 255, 255, 0.3); }
   .cards #fiber {
     background-color: #000000;
     background-image: url(https://cache.bestmvno.com/wp-content/uploads/2016/05/T-Mobile-Coverage-Map-1.jpg);
@@ -90,6 +90,8 @@
   .cards #huawei {
     min-height: 300px;
     background-image: url(https://zdnet2.cbsistatic.com/hub/i/r/2017/10/26/40df9db5-d8d8-4ce0-89c0-1d70dd645efc/thumbnail/770x433/f3299786faf0aeb63647fe5d3aaf82ab/huawei-mate-10-pro-header.jpg); }
+    .cards #huawei h2 {
+      background: rgba(255, 255, 255, 0.3); }
     .cards #huawei p {
       color: #fafafa; }
     .cards #huawei .circle {
@@ -102,6 +104,12 @@
       position: absolute;
       right: 60px;
       text-align: center; }
+    .cards #huawei button {
+      background: rgba(255, 255, 255, 0.8); }
+      .cards #huawei button:hover {
+        color: #fafafa;
+        background-color: #E30074;
+        border-color: #E30074; }
     .cards #huawei a {
       color: #000000;
       border-color: #000000;
@@ -115,6 +123,13 @@
       text-shadow: 2px 2px #000000; }
     .cards #sport a {
       color: #fafafa; }
+    .cards #sport button {
+      background: rgba(255, 255, 255, 0.7);
+      color: #000000; }
+      .cards #sport button:hover {
+        color: #E30074;
+        background-color: #fafafa;
+        border-color: #E30074; }
   .cards #LTE {
     background-image: url(../Pictures/ltemax.jpg);
     background-size: cover;
@@ -122,11 +137,25 @@
     .cards #LTE a {
       color: #fafafa;
       border-color: #fafafa; }
+    .cards #LTE button {
+      background: rgba(255, 255, 255, 0.7);
+      color: #000000; }
+      .cards #LTE button:hover {
+        color: #E30074;
+        background-color: #fafafa;
+        border-color: #E30074; }
   .cards #laptop {
     background-image: url(../Pictures/laptop.jpg);
     min-height: 300px; }
     .cards #laptop a {
       color: #000000; }
+    .cards #laptop button {
+      background: rgba(255, 255, 255, 0.7);
+      color: #000000; }
+      .cards #laptop button:hover {
+        color: #E30074;
+        background-color: #fafafa;
+        border-color: #E30074; }
   .cards #young {
     background-image: url(../Pictures/young.jpg);
     background-size: cover;
@@ -137,6 +166,13 @@
     .cards #young a {
       color: #fafafa;
       border-color: #fafafa; }
+    .cards #young button {
+      background: rgba(255, 255, 255, 0.7);
+      color: #000000; }
+      .cards #young button:hover {
+        color: #E30074;
+        background-color: #fafafa;
+        border-color: #E30074; }
   .cards #magenta {
     background-image: url(https://i.ytimg.com/vi/-Ebw5lT7ITM/maxresdefault.jpg);
     background-size: cover;
@@ -169,11 +205,13 @@
 /* Shortcuts  */
 .shortcuts {
   background-color: #E30074;
-  height: 500px;
-  align-items: center; }
+  height: 500px; }
   .shortcuts h1, .shortcuts table, .shortcuts a {
     color: #fafafa;
     font-family: Arial Narrow, sans-serif; }
+  .shortcuts .centerTable {
+    margin-left: 50%;
+    margin-right: auto; }
   .shortcuts h1 {
     text-align: center; }
   .shortcuts th {
@@ -193,11 +231,14 @@ a:hover {
   background-color: #fafafa;
   min-height: 300px; }
   #container .jumbotron {
+    background-size: contain;
+    background-repeat: no-repeat;
     background-image: url(../Pictures/iphoneX.jpg);
     background-position: right;
     background-color: #fafafa;
-    height: inherit;
-    background-size: contain;
-    background-repeat: no-repeat; }
+    height: inherit; }
+    @media only screen and (max-width: 768px) {
+      #container .jumbotron {
+        background: none; } }
 
 /*# sourceMappingURL=output.css.map */

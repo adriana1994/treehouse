@@ -15,9 +15,6 @@
 	&-white {
 		color:$color-primary;
 		border-color:$color-primary;
-		#young & {
-			text-shadow: 2px 1px $grey-dark;
-		}
 		&:hover {
 			color:$color-magenta;
 			background-color:$color-primary;

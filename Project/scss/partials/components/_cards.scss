@@ -42,6 +42,9 @@
 			a {
 				color: $color-black;
 			}
+			p {
+				background:rgba(255,255,255,0.3);
+			}
 		}
 		#fiber {
 			@extend %bgposition;
@@ -56,6 +59,9 @@
 			@extend %bgposition;
 			min-height:300px;
 			background-image:url(https://zdnet2.cbsistatic.com/hub/i/r/2017/10/26/40df9db5-d8d8-4ce0-89c0-1d70dd645efc/thumbnail/770x433/f3299786faf0aeb63647fe5d3aaf82ab/huawei-mate-10-pro-header.jpg);
+			h2 {
+				background:rgba(255,255,255,0.3);
+			}
 			p {
 				color:$color-primary;
 			}
@@ -70,6 +76,14 @@
 				position: absolute;
 				right: 60px;
 				text-align: center;
+			}
+			button {
+				background:rgba(255,255,255,0.8);
+				&:hover {
+					color:$color-primary;
+					background-color:$color-magenta;
+					border-color:$color-magenta;
+				}
 			}
 			a {
 				color:$color-black;
@@ -88,6 +102,7 @@
 			a {
 				color:$color-primary;
 			}
+			@include button;
 		}
 		#LTE {
 			background-image: url(../Pictures/ltemax.jpg);
@@ -97,6 +112,7 @@
 				color:$color-primary;
 				border-color:$color-primary;
 			}
+			@include button;
 		}
 		#laptop {
 			background-image:url(../Pictures/laptop.jpg);
@@ -105,6 +121,7 @@
 			a {
 				color:$color-black;
 			}
+			@include button;
 		}
 		#young {
 			background-image: url(../Pictures/young.jpg);
@@ -118,6 +135,7 @@
 				color:$color-primary;
 				border-color:$color-primary;
 			}
+			@include button;
 		}
 		#magenta {
 			background-image:url(https://i.ytimg.com/vi/-Ebw5lT7ITM/maxresdefault.jpg);
